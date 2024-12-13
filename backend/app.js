@@ -20,7 +20,7 @@ app.use('/api/email', emailRoutes); // Route untuk email
 app.use('/api', require('./routes/emailRoutes')); // Sesuaikan path jika berbeda
 
 // Server
-const PORT = process.env.PORT || 3000; // Gunakan PORT dari environment variable atau default ke 3000
+const PORT = process.env.PORT || 5000; // Gunakan PORT dari environment variable atau default ke 3000
 app.listen(PORT, () => {
     console.log(`Backend running on http://localhost:${PORT}`);
 });
