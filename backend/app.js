@@ -20,4 +20,8 @@ app.listen(PORT, () => {
     console.log(`Backend running on http://localhost:${PORT}`);
 });
 
+app.get('/', (req, res) => {
+    res.status(200).send('Backend is running!');
+});
+
 module.exports = app;
