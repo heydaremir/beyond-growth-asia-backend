@@ -1,5 +1,5 @@
 const nodemailer = require('nodemailer');
-require('dotenv').config({ path: './password.env' });
+require('dotenv').config();
 
 
 exports.sendEmail = async (req, res) => {
