@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "dev": "concurrently \"npm run dev --prefix compro-main\" \"npm run server --prefix backend\"",
-    "server": "nodemon backend/app.js",
-    "client": "npm run dev --prefix compro-main"
+    "dev": "nodemon backend/app.js",
+    "start": "node backend/app.js"
   },
   "keywords": [],
   "author": "",
